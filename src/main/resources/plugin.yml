@@ -5,11 +5,15 @@ api-version: 1.16
 author: HyperFastStudio
 commands:
   hnybdrop:
-    description: Bật/tắt chức năng chặn vứt nhầm item
-    usage: /<command> [on|off]
+    description: Bật/tắt, reload và kiểm tra cập nhật plugin.
+    usage: /<command> <on|off|reload|checkupdate>
   drop:
-    description: Bật/tắt chức năng chặn vứt nhầm item
-    usage: /<command> [on|off]
+    description: Alias của lệnh hnybdrop.
+    usage: /<command> <on|off|reload|checkupdate>
 permissions:
   hnybdrop.use:
+    description: Cho phép sử dụng các lệnh cơ bản của hnybdrop.
     default: op
+  hnybdrop.admin:
+    description: Cho phép sử dụng lệnh reload và checkupdate.
+    default: false

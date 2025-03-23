@@ -19,10 +19,15 @@ confirm-enabled: true
 confirm-interval: 10000
 
 messages:
-  drop-first-attempt: "Nhấn vứt lần đầu, sau đó nhấn lại trong 10 giây để xác nhận vứt."
-  drop-confirmed: "Bạn đã xác nhận vứt vật phẩm."
-  enabled-message: "Chức năng xác nhận vứt đã được bật."
-  disabled-message: "Chức năng xác nhận vứt đã được tắt."
-  help-message: "Cách dùng: /hnybdrop <on|off>"
-  no-permission: "Bạn không có quyền sử dụng lệnh này."
-  invalid-argument: "Lệnh không hợp lệ. Sử dụng: /hnybdrop <on|off>"
+  drop-first-attempt: "&eNhấn vứt lần đầu, sau đó nhấn lại trong 10 giây để xác nhận vứt."
+  drop-confirmed: "&aBạn đã xác nhận vứt vật phẩm."
+  enabled-message: "&aChức năng xác nhận vứt đã được bật."
+  disabled-message: "&cChức năng xác nhận vứt đã được tắt."
+  help-message: |
+    - &6/hnybdrop on: &aBật chức năng xác nhận vứt.
+    - &6/hnybdrop off: &cTắt chức năng xác nhận vứt.
+    - &6/hnybdrop reload: &eReload cấu hình plugin (yêu cầu perm hnybdrop.admin).
+    - &6/hnybdrop checkupdate: &eKiểm tra cập nhật plugin (yêu cầu perm hnybdrop.admin).
+    - &6/drop: &7Alias của lệnh hnybdrop.
+  no-permission: "&cBạn không có quyền sử dụng lệnh này."
+  invalid-argument: "&cLệnh không hợp lệ."
