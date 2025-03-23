@@ -1,0 +1,28 @@
+#    ██╗  ██╗███╗   ██╗██╗   ██╗██████╗
+#    ██║  ██║████╗  ██║╚██╗ ██╔╝██╔══██╗
+#    ███████║██╔██╗ ██║ ╚████╔╝ ██████╔╝
+#    ██╔══██║██║╚██╗██║  ╚██╔╝  ██╔══██╗
+#    ██║  ██║██║ ╚████║   ██║   ██████╔╝
+#    ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝
+
+# Sản phẩm của HyperFast Studio
+# Các thông tin :
+#  - Minecraft Server : PC : quackmc.net, PE : quackmc.net (Port: 19132)
+#  - Web : www.quackmc.net
+#  - Discord : discord.gg/quackmc
+
+
+  # Bật/tắt chức năng xác nhận vứt vật phẩm
+confirm-enabled: true
+
+# Khoảng thời gian xác nhận (miligiây)
+confirm-interval: 10000
+
+messages:
+  drop-first-attempt: "Nhấn vứt lần đầu, sau đó nhấn lại trong 10 giây để xác nhận vứt."
+  drop-confirmed: "Bạn đã xác nhận vứt vật phẩm."
+  enabled-message: "Chức năng xác nhận vứt đã được bật."
+  disabled-message: "Chức năng xác nhận vứt đã được tắt."
+  help-message: "Cách dùng: /hnybdrop <on|off>"
+  no-permission: "Bạn không có quyền sử dụng lệnh này."
+  invalid-argument: "Lệnh không hợp lệ. Sử dụng: /hnybdrop <on|off>"

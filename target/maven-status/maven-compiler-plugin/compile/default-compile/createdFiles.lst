@@ -1,0 +1,5 @@
+com\hyperfaststudio\hnybdrop\UpdateChecker.class
+com\hyperfaststudio\hnybdrop\CommandHandler.class
+com\hyperfaststudio\hnybdrop\ConfigManager.class
+com\hyperfaststudio\hnybdrop\DropListener.class
+com\hyperfaststudio\hnybdrop\HnybDrop.class

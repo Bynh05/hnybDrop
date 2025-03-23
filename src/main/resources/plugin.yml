@@ -1,0 +1,15 @@
+name: hnybdrop
+main: com.hyperfaststudio.hnybdrop.HnybDrop
+version: 1.0
+api-version: 1.16
+author: HyperFastStudio
+commands:
+  hnybdrop:
+    description: Bật/tắt chức năng chặn vứt nhầm item
+    usage: /<command> [on|off]
+  drop:
+    description: Bật/tắt chức năng chặn vứt nhầm item
+    usage: /<command> [on|off]
+permissions:
+  hnybdrop.use:
+    default: op

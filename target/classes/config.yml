@@ -1,0 +1,28 @@
+#    ██╗  ██╗███╗   ██╗██╗   ██╗██████╗
+#    ██║  ██║████╗  ██║╚██╗ ██╔╝██╔══██╗
+#    ███████║██╔██╗ ██║ ╚████╔╝ ██████╔╝
+#    ██╔══██║██║╚██╗██║  ╚██╔╝  ██╔══██╗
+#    ██║  ██║██║ ╚████║   ██║   ██████╔╝
+#    ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝
+
+# Sản phẩm của HyperFast Studio
+# Các thông tin :
+#  - Minecraft Server : PC : quackmc.net, PE : quackmc.net (Port: 19132)
+#  - Web : www.quackmc.net
+#  - Discord : discord.gg/quackmc
+
+
+  # Bật/tắt chức năng xác nhận vứt vật phẩm
+confirm-enabled: true
+
+# Khoảng thời gian xác nhận (miligiây)
+confirm-interval: 10000
+
+messages:
+  drop-first-attempt: "&eNhấn vứt lần đầu, sau đó nhấn lại trong 10 giây để xác nhận vứt."
+  drop-confirmed: "&aBạn đã xác nhận vứt vật phẩm."
+  enabled-message: "&aChức năng xác nhận vứt đã được bật."
+  disabled-message: "&eChức năng xác nhận vứt đã được tắt."
+  help-message: "&6Cách dùng: /<command> <on|off>"
+  no-permission: "&cBạn không có quyền sử dụng lệnh này."
+  invalid-argument: "&cLệnh không hợp lệ. Sử dụng: /<command> <on|off>"
